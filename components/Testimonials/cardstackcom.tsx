@@ -1,6 +1,6 @@
 "use client";
 import { CardStack } from "./card-stack";
-import { useGetData } from "@/hooks/getData";
+import { useGetData } from "@/src/hooks/usePortfolioData";
 import { cn } from "@/utils/cn";
 export function CardStackDemo() {
   const { data, loading, error } = useGetData();

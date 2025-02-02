@@ -3,7 +3,7 @@ import { cn } from "@/utils/cn";
 import { motion, MotionValue } from "framer-motion";
 import React from "react";
 import Link from "next/link";
-import { useGetData } from "@/hooks/getData";
+import { useGetData } from "@/src/hooks/usePortfolioData";
 
 const transition = {
   duration: 0,

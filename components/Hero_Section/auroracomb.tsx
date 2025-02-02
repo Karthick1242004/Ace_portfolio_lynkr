@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { AuroraBackground } from "./aurora-background";
 import Link from "next/link";
-import { useGetData } from "@/hooks/getData";
+import { useGetData } from "@/src/hooks/usePortfolioData";
 
 export default function AuroraBackgroundDemo() {
   const { data, loading, error } = useGetData();

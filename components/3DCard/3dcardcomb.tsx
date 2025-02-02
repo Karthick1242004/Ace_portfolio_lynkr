@@ -4,7 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./3d-card";
 import Link from "next/link";
-import { useGetData } from "@/hooks/getData";
+import { useGetData } from "@/src/hooks/usePortfolioData";
 
 export default function ThreeDCardDemo() {
   const { data, loading, error } = useGetData();

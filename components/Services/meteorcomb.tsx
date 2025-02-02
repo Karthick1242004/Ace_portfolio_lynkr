@@ -1,6 +1,6 @@
 import React from "react";
 import { Meteors } from "./meteors";
-import { useGetData } from "@/hooks/getData";
+import { useGetData } from "@/src/hooks/usePortfolioData";
 
 export default function MeteorsDemo() {
   const { data, loading, error } = useGetData();

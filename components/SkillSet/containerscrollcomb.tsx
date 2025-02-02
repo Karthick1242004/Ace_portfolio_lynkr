@@ -2,7 +2,7 @@
 import React from "react";
 import { ContainerScroll } from "./container-scroll-animation";
 import Image from "next/image";
-import { useGetData } from "@/hooks/getData";
+import { useGetData } from "@/src/hooks/usePortfolioData";
 
 export default function HeroScrollDemo() {
   const { data, loading, error } = useGetData();

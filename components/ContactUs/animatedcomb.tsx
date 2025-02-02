@@ -2,7 +2,7 @@
 import React from "react";
 import { AnimatedTooltip } from "./animated-tooltip";
 import Link from "next/link";
-import { useGetData } from "@/hooks/getData";
+import { useGetData } from "@/src/hooks/usePortfolioData";
 
 const images = {
   LinkedIn: "/linkedin.png",
