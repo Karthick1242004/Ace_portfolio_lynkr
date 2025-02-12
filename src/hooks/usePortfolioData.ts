@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const DATA_URL = 'https://gist.githubusercontent.com/Karthick1242004/9cfae30830d7426e2c78715f74454a71/raw/data.json';
+const DATA_URL = 'https://gist.githubusercontent.com/Karthick1242004/da682d40bd20e22d2f833d29aa0589ef/raw/data.json';
 
 interface PortfolioData {
   projects: Array<{
